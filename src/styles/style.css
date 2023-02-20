@@ -1,0 +1,330 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgba(18, 16, 49, 0.845);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Raleway';
+    color:rgb(255, 255, 255);
+
+    transition: background-color  0.3s ;
+}
+header{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+
+}
+main{
+    
+    display: flex;
+    height: 85%;
+    width: 100%;
+}
+.left-section{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tempDiv{
+   
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    
+    font-size: 60px;
+
+   
+    
+}
+form{
+    height: 35%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items:center;
+    
+   
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+button{
+
+    height: 40px;
+    width: 50px;
+    background:white;
+    border-radius: 50px;
+    border:3px solid white;
+    
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    cursor: pointer;
+    justify-self:flex-start;
+   
+}
+.searchIMG{
+    height: 20px;
+    width: 20px;
+
+}
+
+
+.weather__description{
+   
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 30px;
+
+    font-size: 30px;
+    
+}
+.content-img{
+   
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+img{
+   
+    object-fit: cover;
+   
+
+    transition: scale 0.3s;
+}
+
+.pig{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+
+}
+
+/* weather img */
+
+.sun{ 
+    width :60%; 
+    height :70% 
+} 
+.clouds{ 
+    width :80%; 
+    height :60% 
+} 
+.rain{ 
+    width :60%; 
+    height :80% 
+}
+.snow{
+    width :60%;
+    height :70%
+}
+.drizzle{
+    width :60%;
+    height :70%
+}
+.thunder{
+    width :70%;
+    height :80%
+}
+.tornado{
+    width :60%;
+    height :100%
+}
+.moon{
+    width :65%;
+    height :15%
+}
+.fewClouds{
+    width :90%;
+    height :90%
+}
+.brokenClouds{
+    width :100%;
+    height :75%
+}
+@media screen and (max-width: 1000px) {
+   
+    header{
+        height: 6%;
+        text-align: start;
+    
+    }
+    h1{
+        margin-left: 20px;
+        
+    }
+    main{
+        height: 90%;
+        display: flex;
+       flex-direction: column;
+    }
+    /* .left-section{
+        display: flex;
+        flex-direction: row;
+   
+    } */
+  
+    .left-section{
+        height: 50%;
+        width: 100%;
+    }
+    form{
+        height: 40%;
+    }
+    .tempDiv{
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        
+        font-size: 30px;
+    }
+
+    .weather__description{
+        height: 40%;
+        gap: 10px;
+    
+        font-size: 20px;
+    }
+    
+    .searchIMG{
+        height:15px ;
+        width: 15px ;
+    }
+    button{
+        height: 30px;
+    }
+    .content-img{
+        height: 54%;
+    }
+
+   
+
+    /* weather img */
+    .sun{
+        height: 90% ;
+        width: 50% ;
+    }
+    .clouds{
+        height: 65% ;
+        width: 60% ;
+    }
+    .fewClouds{
+        width :40%;
+        height :60%
+    }
+    .brokenClouds{
+        width :56%;
+        height :65%
+    }
+    .rain{
+        height:90% ;
+        width: 40% ;
+    }
+     
+
+
+
+    .snow{
+        width :70%;
+        height :90%
+    }
+    .drizzle{
+        width :50%;
+        height :60%
+    }
+    .thunder{
+        width :50%;
+        height :100%
+    }
+    .tornado{
+        width :60%;
+        height :100%
+    }
+    .moon{
+        width :50%;
+        height :90%
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 600px){
+     /* weather img */
+     .sun{
+        height: 60% ;
+        width: 55% ;
+    }
+    .clouds{
+        height: 40% ;
+        width: 65% ;
+    }
+    .fewClouds{
+        width :55%;
+        height :60%
+    }
+    .brokenClouds{
+        width :65%;
+        height :35%
+    }
+    .rain{
+        height:74% ;
+        width: 66% ;
+    }
+     
+
+
+
+    .snow{
+        width :60%;
+        height :70%
+    }
+    .drizzle{
+        width :50%;
+        height :60%
+    }
+    .thunder{
+        width :60%;
+        height :63%
+    }
+    .tornado{
+        width :60%;
+        height :100%
+    }
+    .moon{
+        width :55%;
+        height :65%
+    }
+}

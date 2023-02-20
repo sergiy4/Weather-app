@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <h1>Weather</h1>
+   </header>
+   
+   <main>
+    <div class="left-section">
+        <div class="tempDiv" >
+            <h1 id = "temperature"class="temperature"></h1>
+        </div>
+    
+        <form id="form"action="">
+            <label for="cityInp">Enter city</label>
+            <input name="city" type="text" id="cityInp">
+            <p id="errorMessage"></p>
+
+            <button id="btnSearch" type="button"><img src="./assets/search.png" alt="" class="searchIMG"></button>
+        </form>
+
+        <div class="weather__description">
+            <p id="country"></p>
+            <p id="feel_like"></p>
+            <p id="weather_description"></p>
+        </div>
+    </div>
+
+    <section class="content-img" id="content-img">
+       
+    </section>
+    
+   </main>
+</body>
+</html>
