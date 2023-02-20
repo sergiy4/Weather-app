@@ -69,9 +69,6 @@ export default function changeWeather(weather,temp,time,description){
           else{
             moon()
           }
-
-          
-           
         }
         else if(weather === "Snow"){
             snow()
