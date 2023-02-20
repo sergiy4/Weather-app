@@ -174,7 +174,7 @@ img{
     width :100%;
     height :75%
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
    
     header{
         height: 6%;
@@ -233,98 +233,53 @@ img{
 
     /* weather img */
     .sun{
-        height: 90% ;
-        width: 50% ;
+        width :calc(3em*6);
+        height :calc(3em*6);
     }
+
     .clouds{
-        height: 65% ;
-        width: 60% ;
+        height: calc(3em*3) ;
+        width: calc(3em*5) ;
     }
     .fewClouds{
-        width :40%;
-        height :60%
+        width :calc(3em*6);
+        height : calc(3em*6);
     }
     .brokenClouds{
-        width :56%;
-        height :65%
+        width :calc(3em*4);
+        height :calc(3em*2);
     }
     .rain{
-        height:90% ;
-        width: 40% ;
+        width :calc(3em*6);
+        height :calc(3em*6);
     }
      
 
 
 
     .snow{
-        width :70%;
-        height :90%
+        width :calc(3em*6);
+        height :calc(3em*6);
     }
     .drizzle{
-        width :50%;
-        height :60%
+        width :calc(3em*7);
+        height :calc(3em*8);
     }
     .thunder{
-        width :50%;
-        height :100%
+        width :calc(3em*5);
+        height :calc(3em*5);
     }
     .tornado{
         width :60%;
         height :100%
     }
     .moon{
-        width :50%;
-        height :90%
+        width :calc(3em*6);
+        height :calc(3em*6);
     }
     
 
     
 }
 
-@media screen and (max-width: 600px){
-     /* weather img */
-     .sun{
-        height: 60% ;
-        width: 55% ;
-    }
-    .clouds{
-        height: 40% ;
-        width: 65% ;
-    }
-    .fewClouds{
-        width :55%;
-        height :60%
-    }
-    .brokenClouds{
-        width :65%;
-        height :35%
-    }
-    .rain{
-        height:74% ;
-        width: 66% ;
-    }
-     
-
-
-
-    .snow{
-        width :60%;
-        height :70%
-    }
-    .drizzle{
-        width :50%;
-        height :60%
-    }
-    .thunder{
-        width :60%;
-        height :63%
-    }
-    .tornado{
-        width :60%;
-        height :100%
-    }
-    .moon{
-        width :55%;
-        height :65%
-    }
-}
+ 
