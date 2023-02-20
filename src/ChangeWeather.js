@@ -39,7 +39,7 @@ export default function changeWeather(weather,temp,time,description){
             }
             else{
                 clouds()
-               
+                
             }
            
             
